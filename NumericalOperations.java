@@ -1,7 +1,8 @@
 /**
- * Aslan Shrestha
- * This class description
- * 
+ * Aslan Shrestha.
+ * This class does math problems as an exercise to prove that 
+ * the visual studio code will do the problem for you. This class
+ * goes though the system operations to complete math operations. 
  */
 public class NumericalOperations{
     public static void main(String args[]){

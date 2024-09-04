@@ -1,15 +1,16 @@
 /**
- * Indicate your first and last name along with a description of this class
+ * Aslan Shrestha.
+ * This class find the reminder of 1234/103 without using modulus. 
+ * Instead of using modulus this class uses quotient and product as 1234 stands in 
+ * place of the dividend and 103 as divisor. 
  */
 public class ModulusCalc {
     public static void main(String args[]){
         int number = 1234;
         int mod = 103;
-
-        /**
-         * Implement your algorithm for calculating the modulus of any number 
-         * without using the modulus operator.  For the above numbers, the result 
-         * should be 101.  Test your algorithm against other values too! 
-         */
+        int quotient = number / mod;
+        int product= quotient * mod;
+        int remainder= number- product;
+        System.out.println(remainder);
     }
 }

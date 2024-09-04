@@ -1,5 +1,8 @@
 /**
- * Indicate your first and last name along with a description of this class
+ * Aslan Shrestha.
+ * This class takes the last number of a digit number and moves it to the front.
+ * Then it does the same thing with thrid, second, and first digits until the 
+ * whole number is printed in the reverse order. 
  */
 
 public class NumReverse {
